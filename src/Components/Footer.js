@@ -91,11 +91,21 @@ text-align:center;
 const Title = styled.h1`
 font-size:22px;
 color:#dedede;
+
+/*########## Mobile ##########*/  
+@media screen and (max-width: 350px) {
+font-size:14px;
+}
 `;
 
 const Link = styled.h2`
 font-size:16px;
 color:#aba9a9;
+
+/*########## Mobile ##########*/  
+@media screen and (max-width: 350px) {
+font-size:10px;
+}
 `;
 
 const WebMaster = styled.div`

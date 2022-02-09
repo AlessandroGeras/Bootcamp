@@ -62,6 +62,12 @@ height:200px;
 display:block;
 margin:auto;}
 }
+
+@media screen and (max-width: 350px) {
+img{width:280px;
+height:200px;
+display:block;
+margin:auto;}
 `;
 
 

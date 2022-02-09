@@ -467,13 +467,15 @@ padding:0;
 
 &.showstore{display:none}
 
-&.hidestore{display:initial}
+.hidestore{display:block;
+text-align:center;
+margin-top:25px;}
 
 /*########## Mobile ##########*/    
 @media screen and (max-width: 900px) {
+display:block;
 text-align:center;
-margin-top:5%;
-}
+margin-top:25px;
 `;
 
 const FormMoveOut = keyframes`
@@ -612,7 +614,13 @@ padding:0px;
 
 /*########## Mobile ##########*/    
 @media screen and (max-width: 900px) {
-margin-top:50px;
+margin-top:25px;
+}
+
+@media screen and (max-width: 350px) {
+width:280px;
+
+iframe{width:280px;};
 }
 `;
 
