@@ -69,11 +69,11 @@ Clique no botão superior em Cadastrar, crie um usuário. Clique no botão super
 <p align="right">(<a href="#indice">voltar ao indice</a>)</p>
 
 <h2 name="tecnologias">Dependências e Tecnologias usadas</h2>
-Dependências Front-End:<br />
+<strong>Dependências Front-End:</strong><br />
 Styled-Componentes<br />
 WebFont<br /><br />
 
-Dependências Back-End:<br />
+<strong>Dependências Back-End:</strong><br />
 Express<br />
 CORS<br />
 Sequelize<br />
