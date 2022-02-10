@@ -9,9 +9,9 @@ Início - 02/02/2022 - Conclusão - 09/02/2022 </h3>
   <ol>   
     <li><a href="#projeto">Sobre o projeto</a></li>
     <li><a href="#estrutura">Estrutura do site</a></li>
-    <li><a href="#main">Dia 1</a></li>
-    <li><a href="#carrousel">Carrousel</a></li>
-    <li><a href="#mobile">Mobile</a></li>
+    <li><a href="#dia1">Dia 1</a></li>
+    <li><a href="#dia2">Dia 2</a></li>
+    <li><a href="#dia3">Dia 3</a></li>
     <li><a href="#conclusão">Conclusão</a></li>
   </ol>
 </details>
@@ -23,21 +23,20 @@ Comentários sobre o meu próprio projeto: O site estava seguindo o padrão norm
 <p align="right">(<a href="#indice">voltar ao indice</a>)</p>
  
 <h2 name="estrutura"> Estrutura do site  </h2>
-Navbar com 3 botões funcionais, Login, Cadastrar e Logoff. <br />
+Navbar com 3 botões funcionais, login, cadastrar e logoff. <br />
 Forms com 1 formulário com regex, 1 formulário normal e a store que teve que ser integrada aqui para reduzir as chamadas de props.<br />
 Bootcamps com imagens e textos. <br />
 Advertising com imagem e texto. <br />
 Footer com links não funcionais. <br />
 <p align="right">(<a href="#indice">voltar ao indice</a>)</p>
 
-<h2 name="main"> Main (Backdrop) </h2>
-Fiz integração com o site The Movie Database https://www.themoviedb.org/ pois eles tem api pública e uma boa documentação. Tive que estudar muito para entender o que são promises no javascript pra usar o fetch mas quando foi, era só alegria. Puxei uma lista de 20 filmes da top rated deles e integrei o filme dois deles no meu Main. O primeiro era um filme de baixo orçamento com uma arte pobre e optei por fazer a do segundo que tinha uma arte descente. O que senti falta é que o The Movie Database não tinha no seu acervo o logo dos filmes para botarmos nos posters, eles só retornavam o nome do título e a imagem (outras coisas também, mas não o logo). Então resolvi criar um efeito em CSS para receber o nome do título. Ficou showwww.  
-Outra coisa que faltou era um breve resumo do filme, como a Netflix tem, para ser usada no botão "Mais Informações". O The Movie Database só tinha a descrição do filme que era gigante e como fiz uma integração para receber essas informações, dependendo do filme a descrição variava muito de tamanho e o campo destinado a esta parte ficava muito irregular. Criei então uma função para detectar o primeiro parágrafo e jogar só ele no meu frontend. Foi sucesso total, pois o tamanho era próximo a de outros filmes testados. Essa foi a parte que mais brilhou no meu frontend 👏  
+<h2 name="dia1"> Dia 1</h2>
+Criado toda a estrutura do site, CSS e animações. Pouco para o primeiro dia? Diz isso pras 600 linhas de CSS que foram criadas. Isso só de CSS puro. Sim, eu amo CSS 😍
 <p align="right">(<a href="#indice">voltar ao indice</a>)</p>
 
-<h2 name="carrousel"> Carrousel </h2>
-Eu estava criando o meu próprio Carrousel, ia ser um desafio pessoal pois eu amo desafios, mas um colega me disse uma vez, pra que reinventar a roda? Tanta gente usa Bootstrap e templates, faz o mesmo :thinking:  
-Com tristeza no coração peguei um template na internet. Só não fiquei totalmente triste porque tive que adaptar quase todo ele pros meus fins e quase senti que eu estava criando, eu mesmo, o Carrousel. Ele tinha sido feito em SCSS e eu não manjo nada de SCSS, mas vi que a semântica não é drasticamente tão diferente do CSS, então resolvi transformar tudo pra CSS só pelo desafio mesmo de manter o padrão do meu trabalho que era tudo CSS e estudar o SCSS. E por fim como esperado, fiz a integração no Carrousel.
+<h2 name="dia2"> Dia 2 </h2>
+Dia de aprender regex!!! Eu não sabia o que era regex, pra mim era autenticação de caracteres em formulários. Foram 5 minutos só para descobrir que aquilo se chamava regex 😆
+Meio confuso, levei metade do dia pra entender, e a outra metade do dia da implantar e fazer os efeitos visuais no formulário.
 <p align="right">(<a href="#indice">voltar ao indice</a>)</p>
 
 <h2 name="mobile">Mobile </h2>
