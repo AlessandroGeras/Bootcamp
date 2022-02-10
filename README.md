@@ -54,6 +54,10 @@ Implantado o Sequelize para integrar o Sqlite. Deu vários problemas nas queries
 Configurado o banco de dados finalmente. Feito testes de CRUD ao longo do dia. Estudado mais um pouco sobre banco de dados e trocado os ID´s por UUID e trocado as passwords por hashs de criptografia. Iniciado os estudos sobre tokens.
 <p align="right">(<a href="#indice">voltar ao indice</a>)</p>
 
+<h2 name="dia6">Dia 6</h2>
+Dia totalmente improdutivo. Sucesso em gerar o token mas falha em receber. Tentado vários métodos de comunicação para enviar o token. Falha em todos os métodos. Erros de CORS acontencendo simultaneamente. Erros resolvidos e novos aparecendo. Não sabia o que fazer. Pensei em desistir e entregar o projeto sem o token pois já estava de bom tamanho. Só tinha um problema, eu nunca desisto. 😈
+<p align="right">(<a href="#indice">voltar ao indice</a>)</p>
+
 
 
 
