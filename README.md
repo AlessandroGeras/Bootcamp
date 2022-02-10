@@ -69,18 +69,18 @@ Clique no botão superior em Cadastrar, crie um usuário. Clique no botão super
 <p align="right">(<a href="#indice">voltar ao indice</a>)</p>
 
 <h2 name="tecnologias">Dependências e Tecnologias usadas</h2>
-Dependências Front-End:
-Styled-Componentes
-WebFont
+Dependências Front-End:<br />
+Styled-Componentes<br />
+WebFont<br /><br />
 
-Dependências Back-End:
-Express
-CORS
-Sequelize
-CookieParser
-statusCodes
-jsonwebtoken
-bcrypt
+Dependências Back-End:<br />
+Express<br />
+CORS<br />
+Sequelize<br />
+CookieParser<br />
+statusCodes<br />
+jsonwebtoken<br />
+bcrypt<br />
 <p align="right">(<a href="#indice">voltar ao indice</a>)</p>
 
 
