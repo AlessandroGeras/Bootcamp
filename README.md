@@ -80,7 +80,7 @@ Sequelize<br />
 CookieParser<br />
 statusCodes<br />
 jsonwebtoken<br />
-bcrypt<br /><br /><br />
+bcrypt<br /><br />
 
 <h3>Tecnologias usadas:</h3>
 #html
@@ -92,8 +92,6 @@ bcrypt<br /><br /><br />
 #React
 <p align="right">(<a href="#indice">voltar ao indice</a>)</p>
 
-<br />
-<br />
 <br />
 
 # Getting Started with Create React App
