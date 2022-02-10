@@ -92,7 +92,6 @@ bcrypt<br /><br />
 #React
 <p align="right">(<a href="#indice">voltar ao indice</a>)</p>
 
-<br />
 
 # Getting Started with Create React App
 
