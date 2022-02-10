@@ -15,7 +15,9 @@ Início - 02/02/2022 - Conclusão - 09/02/2022 </h3>
     <li><a href="#dia4">Dia 4</a></li>
     <li><a href="#dia5">Dia 5</a></li>
     <li><a href="#dia6">Dia 6</a></li>
-    <li><a href="#conclusão">Conclusão</a></li>
+    <li><a href="#dia7">Dia 7</a></li>
+    <li><a href="#site">Como usar o site</a></li>
+    <li><a href="#tecnologias">Dependências e Tecnologias usadas</a></li>
   </ol>
 </details>
 <h2 name="projeto"> Sobre o projeto  </h2>
@@ -56,6 +58,29 @@ Configurado o banco de dados finalmente. Feito testes de CRUD ao longo do dia. E
 
 <h2 name="dia6">Dia 6</h2>
 Dia totalmente improdutivo. Sucesso em gerar o token mas falha em receber. Tentado vários métodos de comunicação para enviar o token. Falha em todos os métodos. Erros de CORS acontencendo simultaneamente. Erros resolvidos e novos aparecendo. Não sabia o que fazer. Pensei em desistir e entregar o projeto sem o token pois já estava de bom tamanho. Só tinha um problema, eu nunca desisto. 😈
+<p align="right">(<a href="#indice">voltar ao indice</a>)</p>
+
+<h2 name="dia7">Dia 7</h2>
+Reconhecido problema no Express, ele não pega cookie, quem diria. Instalado o modulo CookieParser e tudo funcionou 🏆 Configurado o server em modo REST. Resolvido o problema de CORS que proibia conexão entre o mesmo domínio (localhost de localhost), configurado sistema de cache para responder os pedidos de GET. Configurado a store do site. Desafio completado 👏
+<p align="right">(<a href="#indice">voltar ao indice</a>)</p>
+
+<h2 name="site">Como usar o site</h2>
+Clique no botão superior em Cadastrar, crie um usuário. Clique no botão superior Login e faça login. Você cairá na store e lá só existem 4 produtos. Os testes de banco de dados pode ser feitos comprando até 3 produtos. Você pode fazer logoff e entrar de novo e os produtos comprados estarão indisponíveis. Você pode comprar até 3 produtos e tentar acionar a opção de comprar novamente sem fazer logoff. Novamente os produtos comprados estarão indisponíveis. Você pode acessar o endereço localhost:5000/users para ver a base de dados. Não fiz GET pro usuário ver alguma coisa porque simplesmente ele já vê o que ele tem quando entra na store. E não fiz o delete porque achei que não tinha contexto neste projeto e não fez falta no aprendizado até porque era o comando mais fácil do banco de dados. Quando você comprar os 4 produtos você receberá um link no console do DevTools do navegador para acessar a página de segurança dos usuários. É o mesmo conteúdo do /users só que ele tem controle via token. Depois de 1 minuto você irá perder acesso ao link e terá que logar de novo para ganhar outro link. Fiz isso para testar a segurança do token pois se eu tivesse feito no login automático ninguém ia saber que ele existe pois ele seria autenticado automaticamente. E no link, já era, depois de 1 minuto, adeus acesso.
+<p align="right">(<a href="#indice">voltar ao indice</a>)</p>
+
+<h2 name="tecnologias">Dependências e Tecnologias usadas</h2>
+Dependências Front-End:
+Styled-Componentes
+WebFont
+
+Dependências Back-End:
+Express
+CORS
+Sequelize
+CookieParser
+statusCodes
+jsonwebtoken
+bcrypt
 <p align="right">(<a href="#indice">voltar ao indice</a>)</p>
 
 
