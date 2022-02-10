@@ -80,17 +80,7 @@ Sequelize<br />
 CookieParser<br />
 statusCodes<br />
 jsonwebtoken<br />
-bcrypt<br />
-<p align="right">(<a href="#indice">voltar ao indice</a>)</p>
-
-
-
-
-
-
-
-<h2 name="conclusão">Conclusão</h2>
-Foi bem divertido fazer o projeto, queria ter feito mais coisas mas a essência já está montada. Fazer mais, seria fazer mais do mesmo. Agora, rumo à outros projetos 💪  
+bcrypt<br /><br /><br />
 
 <h3>Tecnologias usadas:</h3>
 #html
@@ -98,28 +88,13 @@ Foi bem divertido fazer o projeto, queria ter feito mais coisas mas a essência 
 #css
 <br />
 #js
+<br />
+#React
 <p align="right">(<a href="#indice">voltar ao indice</a>)</p>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<br />
+<br />
+<br />
 
 # Getting Started with Create React App
 
