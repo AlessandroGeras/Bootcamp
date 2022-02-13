@@ -36,7 +36,7 @@ Footer com links não funcionais. <br />
 <p align="right">(<a href="#indice">voltar ao indice</a>)</p>
 
 <h2 name="dia1"> Dia 1</h2>
-Criado toda a estrutura do site, responsividade, CSS e animações. Pouco para o primeiro dia? Diz isso pras 600 linhas de CSS que foram criadas. Isso só de CSS puro. Sim, eu amo CSS 😍
+Criado toda a estrutura do site, responsividade, CSS e animações. Pouco para o primeiro dia? Diz isso pras 600 linhas de CSS que foram criadas. Isso só de CSS puro. Sim, eu amo CSS 😍 
 <p align="right">(<a href="#indice">voltar ao indice</a>)</p>
 
 <h2 name="dia2"> Dia 2</h2>
