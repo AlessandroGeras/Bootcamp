@@ -48,7 +48,7 @@ function Bootcamps() {
     </Advertising> 
   </Benefits>
       <TextButton>
-        <a href="https://www.bancointer.com.br/">Aprenda Mais</a>
+        <a href="https://www.bancointer.com.br/" target="_blank">Aprenda Mais</a>
       </TextButton>
 </TextBox>
 </div>
