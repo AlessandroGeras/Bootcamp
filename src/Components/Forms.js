@@ -187,7 +187,7 @@ const login = (event) => {
             }
             if(showjson.css && showjson.js && showjson.reactjs && showjson.sql){
                 alert("Você comprou tudo, Game Over =D\n\nEste servidor usa autenticação de rotas por token. Se quiser experimentar tente acessar o seguinte endereço por até 1 minuto depois do seu login. Depois de 1 minuto seu acesso será bloqueado e será requerido logar na conta novamente. Fiz isso apenas para fins de teste pois é a primeira vez que implanto esta tecnologia. O endereço está no console do DevTools do seu navegador, basta apenas clicar ou copiar e colar. Abraço.");
-                console.log("http://localhost:5000/secureusers?token="+showjson.Token)
+                console.log("https://bootcamp-api-backend.herokuapp.com/secureusers?token="+showjson.Token)
             }
             else{
             
