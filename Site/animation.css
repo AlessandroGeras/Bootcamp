@@ -1,0 +1,25 @@
+@keyframes bluebackground  {
+  0%   {background-position:0% 0%}
+  100% {background-position:0% 50%}
+}
+
+@keyframes redbackground  {
+  0%   {background-position:0% 50%}
+  100% {background-position:0% 0%}
+}
+
+@keyframes userformtranslate  {
+  0%   {opacity: 0;}
+  50%   {opacity: 0.5}
+  100% {opacity: 1}
+}
+
+@keyframes formmoveout  {
+  0%   {left:0}
+  100% {left:-1000px;}
+}
+
+@keyframes formmovein  {
+  0%   {left:-1000px}
+  100% {left:0;}
+}
