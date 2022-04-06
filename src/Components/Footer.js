@@ -68,7 +68,7 @@ function Footer() {
     </Information>    
 </FooterContainer>
 <WebMaster>
-    Webmaster Alessandro Geras - Futuro sangue laranja =D
+    Webmaster Alessandro Geras
 </WebMaster>
 </div>
     );
