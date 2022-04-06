@@ -340,7 +340,7 @@ const search = (event) => {
         </ContainerForm>
     </FormsContainer>
     <Title className={props.logoff ? "hidestore" : showstore===true ? "showstore" : "hidestore"}>
-        Bootcamp Inter<br />
+        Bootcamp<br />
         Front-End Dev
     </Title>
     <IframeVideo className={props.logoff ? "hidestore" : showstore===true ? "showstore" : "hidestore"}>
