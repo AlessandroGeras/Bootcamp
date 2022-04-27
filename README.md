@@ -49,7 +49,7 @@ Meio confuso, levei metade do dia pra entender, e a outra metade do dia da impla
 Express instalado e configurado com as rotas, e só. Resto do dia estudando como o banco de dados do projeto final, Sqlite, funcionava e como fazer as queries. Achei difícil e tentei usar o PostgreSQL. Achei que eu estava fugindo do meu desafio e prometi que iria ter sucesso no outro dia com o Sqlite. ☹️
 <p align="right">(<a href="#indice">voltar ao indice</a>)</p>
 
-<h2 name="di4">Dia 4</h2>
+<h2 name="dia4">Dia 4</h2>
 Implantado o Sequelize para integrar o Sqlite. Deu vários problemas nas queries de update que me levaram a querer voltar pra ideia do PostgreSQL. Mais uma vez me xinguei por querer fugir do desafio e fui novamente a luta. Problema que o Sequelize não dava retorno nas promises que tinham múltiplas queries do Sqlite, só no PostgreSQL segundo a documentação oficial. Recomendado fazer uma sequência de promises par resolver o problema. Pesquisei mais um pouco porque não estava afim de fazer as queries, uma a uma, quando alguém disse ter achado um exploit de enviar as queries em Json, em vez de criar as queries em Json diretamente no Sequelize. Não tinha sentido trocar 6 por meia dúvia mas funcionou. Ufa! 🤡
 <p align="right">(<a href="#indice">voltar ao indice</a>)</p>
 
